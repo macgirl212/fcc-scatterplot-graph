@@ -1,0 +1,31 @@
+body {
+  background: #3a405a;
+}
+
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0 0 20px #1e2130;
+          box-shadow: 0 0 20px #1e2130;
+  border-radius: 10px;
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+#title, #subheading {
+  color: #aec5eb;
+  text-align: center;
+}
+
+#subheading {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+tooltip {
+  width: 300px;
+  min-height: 200px;
+  z-index: 10;
+}
+/*# sourceMappingURL=style.css.map */

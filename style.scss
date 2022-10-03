@@ -1,0 +1,27 @@
+body {
+    background: rgb(58, 64, 90);
+}
+
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgb(30, 33, 48);
+    border-radius: 10px;
+    transform: translateY(-15px);
+}
+
+#title, #subheading {
+    color: rgb(174, 197, 235);
+    text-align: center;
+}
+
+#subheading {
+    transform: translateY(-15px);
+}
+
+tooltip {
+    width: 300px;
+    min-height: 200px;
+    z-index: 10;
+}
